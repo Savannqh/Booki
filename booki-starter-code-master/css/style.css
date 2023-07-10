@@ -393,7 +393,9 @@ top: 60px;
 .populaires-cards .card-rating {
     margin-bottom: 15px;
 }
-
+.grey-background{
+    background-color: #F2F2F2;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

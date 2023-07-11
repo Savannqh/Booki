@@ -452,7 +452,26 @@ img{
     min-width: 300px;
     object-fit: cover;
 }
-
+.grey-background{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 200px;
+    height: 200px;
+    top: 130px;
+}
+.column{
+display: flex;
+position: relative;
+flex-direction: column;
+gap: 15px;
+left: 20px;
+}
+.footer-h2{
+    display: flex;
+    position: relative;
+    top: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

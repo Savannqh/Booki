@@ -393,6 +393,65 @@ img{
 .grey-background{
     background-color: #F2F2F2;
 }
+/****** Activités ***********/
+.activity{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding-top: 20px;
+    height: 530px;
+    padding-left: 30px;
+    left: 750px;
+    gap: 30px; 
+    width: 100%;
+    
+}
+.activity-h3{
+    display: flex;
+    position: relative;
+    right: 730px;
+    min-width: 300px;
+    justify-content: start;
+}
+.activity-card{
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 300px;
+    right:1065px;
+    top: 90px;
+    object-fit: cover;
+}
+.activity-card img{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+  
+}
+.activity-title{
+    display: flex;
+    position: relative;
+    top: 345px;
+    right: 240px;
+    width: 700px;
+}
+.activity-h4{
+    display: flex;
+    position: relative;
+    width: 200px;
+}
+.fort{
+    display: flex;
+    position: relative;
+    object-fit: fill;
+    min-width: 300px;
+    object-fit: cover;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

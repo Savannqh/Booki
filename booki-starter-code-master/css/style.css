@@ -64,6 +64,9 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
+.booki-icons-mobile{
+    display: none;
+}
 .booki-icons img{
 width: 5%;
 height: 5%;
@@ -327,6 +330,7 @@ border-radius: 160%;
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    gap: 55px;
 }
 
 .hebergements-and-populaires section {
@@ -338,7 +342,7 @@ border-radius: 160%;
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 83%;
     
 }
 .hebergements-marseille{
@@ -468,7 +472,8 @@ img{
 }
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 100%;
+    height: 100%;
 }
 
 .populaires-title {
@@ -480,11 +485,12 @@ img{
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    height: 175px;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 166px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -508,7 +514,11 @@ img{
 }
 
 .populaires-cards .card-rating {
+    display: flex;
+    position: relative;
     margin-bottom: 15px;
+    right: 19px;
+    bottom: 9px;
 }
 .grey-background{
     background-color: #F2F2F2;
@@ -518,20 +528,16 @@ img{
     display: flex;
     position: relative;
     flex-direction: row;
-    padding-top: 20px;
-    height: 530px;
-    padding-left: 30px;
-    left: 750px;
-    gap: 30px; 
-    width: 100%;
-    
+    padding-top: 10px;   
 }
 .activity-h3{
     display: flex;
     position: relative;
-    right: 730px;
-    min-width: 300px;
-    justify-content: start;
+    padding-right: 9px;
+    width: 55px;
+    left: 39px;
+    white-space: nowrap;
+    top: 25px;
 }
 .activity-card{
     display: flex;
@@ -540,7 +546,7 @@ img{
     border-radius: 15px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     width: 300px;
-    right:1065px;
+    right:35px;
     top: 90px;
     object-fit: cover;
 }
@@ -604,6 +610,9 @@ left: 20px;
         left: 640px;
         bottom: 32px;
     }
+    .booki-icons-mobile{
+        display: none;
+    }
     .tabs-activity{
         left: 840px;
         bottom: 50px;
@@ -640,11 +649,37 @@ left: 20px;
     .hebergements-and-populaires {
         flex-direction: column;
     }
-
+    .hebergements-marseille{
+        position: relative;
+        left: 15px;
+    }
+    .hebergement-card{
+        width: 260px;
+    }
+    .hebergement-card-2{
+        width: 260px;
+    }
+    .hebergement-card-5{
+        width: 260px;
+    }
+    .hebergement-card-6{
+        width: 260px;
+    }
     .hebergements {
         width: 100%;
     }
-
+    .hebergement-content{
+        width: 1px;
+        right: px;
+    }
+    .hebergement-title{
+        width: 1px;
+        right: 115px;
+        white-space: nowrap;
+    }
+    .hebergement-subtitle{
+        right: 115px;
+    }
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -676,7 +711,7 @@ left: 20px;
         left: -10px;
     }
     .activity-h3{
-        right: -150px;
+        left: 175px;
         top: 30px;
     }
     .activity{
@@ -687,7 +722,7 @@ left: 20px;
     .activity-card{
     width: 200px;
     height: 250px;
-    right: 160px;
+    left: 105px;
     
     }
   
@@ -723,8 +758,16 @@ left: 20px;
     display: flex;
     position: relative;
     left: 120px;
-    width: 1000px;
-   }
+    width: 100%;
+    display: none;
+    }
+    .booki-icons-mobile{
+        display: flex;
+        position: relative;
+        height: 15px;
+        left: 125px;
+        top: 5px;
+    }
    .a-acco{
     display: flex;
     position: relative;
@@ -886,8 +929,8 @@ left: 9px;
     position: relative;
     background-color:#f2f2f2;
     top: 25px;
-    min-width: 555px;
-    height: 595px;
+    min-width: 365px;
+    height: 570px;
     right: 35px;
 }
 .section-title{
@@ -900,9 +943,14 @@ left: 9px;
 .card{
     width: 330px;
     right: 251px;
-    
-
 }
+.card img{
+    height: 125px;
+}
+.populaires-cards .card{
+    height: 135px;
+}
+
 .section-title{
 display: flex;
 position: relative;
@@ -919,10 +967,21 @@ bottom: -21px;
     width: 51px;
     gap: 0px;
 }
+.hebergements-marseille{
+    gap: 19px;
+    left: -5px;
+    bottom: 25px;
+}
+.hébergements-h3{
+    display: flex;
+    position: relative;
+    left: -35px;
+    top: -25px;
+}
 .hebergement-card{
     display: flex;
-    order: 2;
-    order: 6;
+   
+  
 }
 .hebergements-and-populaires{
     display: flex;
@@ -933,9 +992,7 @@ bottom: -21px;
     border-radius: 0px;
     padding-top: 11px;
     background-color: transparent;
-  
-    
-} 
+  } 
 .hebergements{
     background-size: 0%;
 }
@@ -948,16 +1005,12 @@ width: 321px;
 right: 35px;
 }
 
-.hébergements-h3{
-    display: flex;
-    position: relative;
-    left: -35px;
-}
+
 .hebergement-title{
     right: 145px;
 }
 .hebergement-subtitle{
-    left: -475px;
+    left: -145px;
 }
 .hebergement-rating{
     left: -311px;
@@ -1043,29 +1096,26 @@ right: 35px;
     display: flex;
     position: relative;
     flex-direction: column;
-    left: 250px;
+    left: -100px;
+    bottom: 161px;
+    gap: 15px;
 }
 .activity-h3{
-left: -285px;
+left: 105px;
 top: 91px;
 }
-.activity{
-    bottom: 111px;
-    gap: 15px;
-   
-}
 .activity-card{
-    width: 315px;
+    width: 300px;
     right: 285px;
     height: 211px;    
 }
 .activity-card img{
-min-width: 315px;
+min-width: 300px;
 height: 195px;
 }
 .activity-h4{
     top: -139px;
-    left: -21px;
+    left: -9px;
     width: 300px;
 }
 .grey-background{
